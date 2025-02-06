@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  height: 450px;
+  background-image: url(../img/pexels-photo-248515.jpg);
+  background-size: cover;
+}
+
+.bg-image {
+  background-color: rgba(51, 51, 51, 0.6);
+  height: inherit;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.bg-image > h1 {
+  font-size: 2em;
+}
+
+.bg-image > p {
+  font-size: 1.1em;
+  line-height: 1.5;
+  text-align: center;
+  width: 50%;
+}
+
+.bg-image > a {
+  font-size: 1.1em;
+  line-height: 1.5;
+  padding: 1em 2em;
+  border: 1px solid #666;
+  max-width: 160px;
+background-color: #333333;
+}
